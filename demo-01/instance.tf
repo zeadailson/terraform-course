@@ -1,4 +1,4 @@
 resource "aws_instance" "example" {
-    ami         = "${lookup(var.AMIS, var.AWS_REGION)}"
+    ami = "ami-03ba3948f6c37a4b0"
     instance_type = "t2.micro"
 }
